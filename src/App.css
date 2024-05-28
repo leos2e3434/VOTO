@@ -1,0 +1,38 @@
+/* src/App.css */
+body, html, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+.App {
+  padding-top: 60px; /* Espacio para el header fijo */
+}
+
+.main-content {
+  display: flex;
+  justify-content: space-around; /* Para centrar los contenedores horizontalmente */
+  align-items: center; /* Para centrar los contenedores verticalmente */
+  height: calc(100vh - 60px); /* Altura total menos el header */
+}
+
+.container {
+  width: 300px;
+  height: 300px;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.voting-container {
+  background-color: #f9f9f9;
+  border: 1px solid #eaeaea;
+}
+
+.empty-container {
+  background-color: #ffffff;
+  border: 1px solid #eaeaea;
+}
